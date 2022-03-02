@@ -5,21 +5,30 @@ import Contact from './components/Contact'
 import JXS from './components/JsxComponent';
 // import Contact from './components/Contact';
 import Welcome from './components/ClassComponent';
+import Counter from './components/Counter';
+import FunctionClick from './components/FunctionClick';
+import ClassClick from './components/ClassClick';
+import EventBind from './components/EventBind';
+import ParentComponent from './components/ParentComponent';
+import UserGreeting from './components/UserGreeting';
 function App() {
   return (
     <div className="App">
+      <EventBind/>
+      <ParentComponent/>
+      <UserGreeting/>
+        {/* <FunctionClick/> */}
+        {/* <ClassClick/> */}
         {/* <About/> */}
-        <Contact name="Zubair Asif" heroName="Saim">
+        {/* <Contact name="Zubair Asif" heroName="Saim">
           <p>This is first Heading</p>
-        </Contact>
-        <Contact name="Hafiz Majid" heroName="Hafiz">
+        </Contact> */}
+        {/* <Contact name="Hafiz Majid" heroName="Hafiz">
           <button>Action</button>
-        </Contact>
-        <Contact name="Ahmad Butt" heroName="Butt"/>
-        <Welcome name="Zubair Asif" heroName="Saim"/>
-        <Welcome name="Hafiz Majid" heroName="Hafiz"/>
-        <Welcome name="Ahmad Butt" heroName="Butt"/>
-        <JXS />
+        </Contact> */}
+        {/* <JXS /> */}
+        {/* <Welcome /> */}
+        {/* <Counter name="Zubair Asif Here"/> */}
     </div>
   );
 }
